@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6C6DDCB1EC5586800AE4845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6DDCA1EC5586800AE4845 /* main.m */; };
-		A6C6DDCE1EC5586800AE4845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6DDCD1EC5586800AE4845 /* AppDelegate.m */; };
 		A6C6DDD11EC5586800AE4845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6DDD01EC5586800AE4845 /* ViewController.m */; };
 		A6C6DDD41EC5586800AE4845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DDD21EC5586800AE4845 /* Main.storyboard */; };
 		A6C6DDD61EC5586800AE4845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DDD51EC5586800AE4845 /* Assets.xcassets */; };
@@ -78,6 +76,8 @@
 		A6C6DEA11EC55BDF00AE4845 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6DE951EC55BDF00AE4845 /* MobileCoreServices.framework */; };
 		A6C6DEA21EC55BDF00AE4845 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6DE961EC55BDF00AE4845 /* OpenGLES.framework */; };
 		A6C6DEA31EC55BDF00AE4845 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6DE971EC55BDF00AE4845 /* QuartzCore.framework */; };
+		A6C6DEAD1EC55EB000AE4845 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6DEAC1EC55EB000AE4845 /* CoreFoundation.framework */; };
+		A6C6DEAF1EC55ECC00AE4845 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6DEAE1EC55ECC00AE4845 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,9 +106,6 @@
 
 /* Begin PBXFileReference section */
 		A6C6DDC61EC5586800AE4845 /* opentyrian-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "opentyrian-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6C6DDCA1EC5586800AE4845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6C6DDCC1EC5586800AE4845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A6C6DDCD1EC5586800AE4845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A6C6DDCF1EC5586800AE4845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A6C6DDD01EC5586800AE4845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A6C6DDD31EC5586800AE4845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -232,6 +229,8 @@
 		A6C6DE951EC55BDF00AE4845 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		A6C6DE961EC55BDF00AE4845 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A6C6DE971EC55BDF00AE4845 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A6C6DEAC1EC55EB000AE4845 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		A6C6DEAE1EC55ECC00AE4845 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +238,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C6DEAF1EC55ECC00AE4845 /* UIKit.framework in Frameworks */,
+				A6C6DEAD1EC55EB000AE4845 /* CoreFoundation.framework in Frameworks */,
 				A6C6DE981EC55BDF00AE4845 /* AudioToolbox.framework in Frameworks */,
 				A6C6DE991EC55BDF00AE4845 /* AVFoundation.framework in Frameworks */,
 				A6C6DE9A1EC55BDF00AE4845 /* CoreAudio.framework in Frameworks */,
@@ -280,8 +281,6 @@
 		A6C6DDC81EC5586800AE4845 /* opentyrian-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A6C6DDCC1EC5586800AE4845 /* AppDelegate.h */,
-				A6C6DDCD1EC5586800AE4845 /* AppDelegate.m */,
 				A6C6DDCF1EC5586800AE4845 /* ViewController.h */,
 				A6C6DDD01EC5586800AE4845 /* ViewController.m */,
 				A6C6DDD21EC5586800AE4845 /* Main.storyboard */,
@@ -296,7 +295,6 @@
 		A6C6DDC91EC5586800AE4845 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A6C6DDCA1EC5586800AE4845 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -433,6 +431,8 @@
 		A6C6DE8B1EC55BDF00AE4845 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6C6DEAE1EC55ECC00AE4845 /* UIKit.framework */,
+				A6C6DEAC1EC55EB000AE4845 /* CoreFoundation.framework */,
 				A6C6DE8C1EC55BDF00AE4845 /* AudioToolbox.framework */,
 				A6C6DE8D1EC55BDF00AE4845 /* AVFoundation.framework */,
 				A6C6DE8E1EC55BDF00AE4845 /* CoreAudio.framework */,
@@ -565,7 +565,6 @@
 				A6C6DE671EC558AB00AE4845 /* palette.c in Sources */,
 				A6C6DE5B1EC558AB00AE4845 /* lvllib.c in Sources */,
 				A6C6DE721EC558AB00AE4845 /* sprite.c in Sources */,
-				A6C6DDCE1EC5586800AE4845 /* AppDelegate.m in Sources */,
 				A6C6DE6C1EC558AB00AE4845 /* player.c in Sources */,
 				A6C6DE781EC558AB00AE4845 /* vga_palette.c in Sources */,
 				A6C6DE541EC558AB00AE4845 /* game_menu.c in Sources */,
@@ -594,7 +593,6 @@
 				A6C6DE621EC558AB00AE4845 /* network.c in Sources */,
 				A6C6DE701EC558AB00AE4845 /* sizebuf.c in Sources */,
 				A6C6DE6B1EC558AB00AE4845 /* picload.c in Sources */,
-				A6C6DDCB1EC5586800AE4845 /* main.m in Sources */,
 				A6C6DE641EC558AB00AE4845 /* nortvars.c in Sources */,
 				A6C6DE4F1EC558AB00AE4845 /* editship.c in Sources */,
 				A6C6DE6F1EC558AB00AE4845 /* shots.c in Sources */,
@@ -780,6 +778,7 @@
 				A6C6DDDF1EC5586800AE4845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
