@@ -78,6 +78,112 @@
 		A6C6DEA31EC55BDF00AE4845 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6DE971EC55BDF00AE4845 /* QuartzCore.framework */; };
 		A6C6DEAD1EC55EB000AE4845 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6DEAC1EC55EB000AE4845 /* CoreFoundation.framework */; };
 		A6C6DEAF1EC55ECC00AE4845 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6DEAE1EC55ECC00AE4845 /* UIKit.framework */; };
+		A6C6DF1B1EC5607900AE4845 /* cubetxt1.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEB11EC5607900AE4845 /* cubetxt1.dat */; };
+		A6C6DF1C1EC5607900AE4845 /* cubetxt2.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEB21EC5607900AE4845 /* cubetxt2.dat */; };
+		A6C6DF1D1EC5607900AE4845 /* cubetxt3.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEB31EC5607900AE4845 /* cubetxt3.dat */; };
+		A6C6DF1E1EC5607900AE4845 /* cubetxt4.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEB41EC5607900AE4845 /* cubetxt4.dat */; };
+		A6C6DF1F1EC5607900AE4845 /* demo.1 in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEB51EC5607900AE4845 /* demo.1 */; };
+		A6C6DF201EC5607900AE4845 /* demo.2 in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEB61EC5607900AE4845 /* demo.2 */; };
+		A6C6DF211EC5607900AE4845 /* demo.3 in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEB71EC5607900AE4845 /* demo.3 */; };
+		A6C6DF221EC5607900AE4845 /* demo.4 in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEB81EC5607900AE4845 /* demo.4 */; };
+		A6C6DF231EC5607900AE4845 /* demo.5 in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEB91EC5607900AE4845 /* demo.5 */; };
+		A6C6DF241EC5607900AE4845 /* dpmi16bi.ovl in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEBA1EC5607900AE4845 /* dpmi16bi.ovl */; };
+		A6C6DF251EC5607900AE4845 /* estsc.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEBB1EC5607900AE4845 /* estsc.shp */; };
+		A6C6DF261EC5607900AE4845 /* exitmsg.bin in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEBC1EC5607900AE4845 /* exitmsg.bin */; };
+		A6C6DF271EC5607900AE4845 /* file_id.diz in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEBD1EC5607900AE4845 /* file_id.diz */; };
+		A6C6DF281EC5607900AE4845 /* file0001.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEBE1EC5607900AE4845 /* file0001.exe */; };
+		A6C6DF291EC5607900AE4845 /* file0002.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEBF1EC5607900AE4845 /* file0002.exe */; };
+		A6C6DF2A1EC5607900AE4845 /* helpme.doc in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC01EC5607900AE4845 /* helpme.doc */; };
+		A6C6DF2B1EC5607900AE4845 /* helpme.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC11EC5607900AE4845 /* helpme.exe */; };
+		A6C6DF2C1EC5607900AE4845 /* levels1.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC21EC5607900AE4845 /* levels1.dat */; };
+		A6C6DF2D1EC5607900AE4845 /* levels2.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC31EC5607900AE4845 /* levels2.dat */; };
+		A6C6DF2E1EC5607900AE4845 /* levels3.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC41EC5607900AE4845 /* levels3.dat */; };
+		A6C6DF2F1EC5607900AE4845 /* levels4.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC51EC5607900AE4845 /* levels4.dat */; };
+		A6C6DF301EC5607900AE4845 /* license.doc in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC61EC5607900AE4845 /* license.doc */; };
+		A6C6DF311EC5607900AE4845 /* loudness.awe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC71EC5607900AE4845 /* loudness.awe */; };
+		A6C6DF321EC5607900AE4845 /* manual.doc in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC81EC5607900AE4845 /* manual.doc */; };
+		A6C6DF331EC5607900AE4845 /* modems.txt in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEC91EC5607900AE4845 /* modems.txt */; };
+		A6C6DF341EC5607900AE4845 /* music.mus in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DECA1EC5607900AE4845 /* music.mus */; };
+		A6C6DF351EC5607900AE4845 /* netarena.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DECB1EC5607900AE4845 /* netarena.exe */; };
+		A6C6DF361EC5607900AE4845 /* netarena.pcx in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DECC1EC5607900AE4845 /* netarena.pcx */; };
+		A6C6DF371EC5607900AE4845 /* netfont1.pcx in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DECD1EC5607900AE4845 /* netfont1.pcx */; };
+		A6C6DF381EC5607900AE4845 /* netfont2.pcx in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DECE1EC5607900AE4845 /* netfont2.pcx */; };
+		A6C6DF391EC5607900AE4845 /* netipx.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DECF1EC5607900AE4845 /* netipx.exe */; };
+		A6C6DF3A1EC5607900AE4845 /* netmega.pcx in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED01EC5607900AE4845 /* netmega.pcx */; };
+		A6C6DF3B1EC5607900AE4845 /* netmodem.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED11EC5607900AE4845 /* netmodem.exe */; };
+		A6C6DF3C1EC5607900AE4845 /* netset.pcx in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED21EC5607900AE4845 /* netset.pcx */; };
+		A6C6DF3D1EC5607900AE4845 /* netterm.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED31EC5607900AE4845 /* netterm.exe */; };
+		A6C6DF3E1EC5607900AE4845 /* netterm.int in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED41EC5607900AE4845 /* netterm.int */; };
+		A6C6DF3F1EC5607900AE4845 /* newsh#.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED51EC5607900AE4845 /* newsh#.shp */; };
+		A6C6DF401EC5607900AE4845 /* newsh^.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED61EC5607900AE4845 /* newsh^.shp */; };
+		A6C6DF411EC5607900AE4845 /* newsh~.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED71EC5607900AE4845 /* newsh~.shp */; };
+		A6C6DF421EC5607900AE4845 /* newsh0.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED81EC5607900AE4845 /* newsh0.shp */; };
+		A6C6DF431EC5607900AE4845 /* newsh1.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DED91EC5607900AE4845 /* newsh1.shp */; };
+		A6C6DF441EC5607900AE4845 /* newsh2.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEDA1EC5607900AE4845 /* newsh2.shp */; };
+		A6C6DF451EC5607900AE4845 /* newsh3.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEDB1EC5607900AE4845 /* newsh3.shp */; };
+		A6C6DF461EC5607900AE4845 /* newsh4.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEDC1EC5607900AE4845 /* newsh4.shp */; };
+		A6C6DF471EC5607900AE4845 /* newsh5.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEDD1EC5607900AE4845 /* newsh5.shp */; };
+		A6C6DF481EC5607900AE4845 /* newsh6.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEDE1EC5607900AE4845 /* newsh6.shp */; };
+		A6C6DF491EC5607900AE4845 /* newsh7.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEDF1EC5607900AE4845 /* newsh7.shp */; };
+		A6C6DF4A1EC5607900AE4845 /* newsh8.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE01EC5607900AE4845 /* newsh8.shp */; };
+		A6C6DF4B1EC5607900AE4845 /* newsh9.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE11EC5607900AE4845 /* newsh9.shp */; };
+		A6C6DF4C1EC5607900AE4845 /* newsha.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE21EC5607900AE4845 /* newsha.shp */; };
+		A6C6DF4D1EC5607900AE4845 /* newshb.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE31EC5607900AE4845 /* newshb.shp */; };
+		A6C6DF4E1EC5607900AE4845 /* newshc.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE41EC5607900AE4845 /* newshc.shp */; };
+		A6C6DF4F1EC5607900AE4845 /* newshd.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE51EC5607900AE4845 /* newshd.shp */; };
+		A6C6DF501EC5607900AE4845 /* newshe.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE61EC5607900AE4845 /* newshe.shp */; };
+		A6C6DF511EC5607900AE4845 /* newshf.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE71EC5607900AE4845 /* newshf.shp */; };
+		A6C6DF521EC5607900AE4845 /* newshg.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE81EC5607900AE4845 /* newshg.shp */; };
+		A6C6DF531EC5607900AE4845 /* newshh.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEE91EC5607900AE4845 /* newshh.shp */; };
+		A6C6DF541EC5607900AE4845 /* newshi.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEEA1EC5607900AE4845 /* newshi.shp */; };
+		A6C6DF551EC5607900AE4845 /* newshj.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEEB1EC5607900AE4845 /* newshj.shp */; };
+		A6C6DF561EC5607900AE4845 /* newshk.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEEC1EC5607900AE4845 /* newshk.shp */; };
+		A6C6DF571EC5607900AE4845 /* newshl.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEED1EC5607900AE4845 /* newshl.shp */; };
+		A6C6DF581EC5607900AE4845 /* newshm.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEEE1EC5607900AE4845 /* newshm.shp */; };
+		A6C6DF591EC5607900AE4845 /* newshn.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEEF1EC5607900AE4845 /* newshn.shp */; };
+		A6C6DF5A1EC5607900AE4845 /* newsho.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF01EC5607900AE4845 /* newsho.shp */; };
+		A6C6DF5B1EC5607900AE4845 /* newshp.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF11EC5607900AE4845 /* newshp.shp */; };
+		A6C6DF5C1EC5607900AE4845 /* newshr.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF21EC5607900AE4845 /* newshr.shp */; };
+		A6C6DF5D1EC5607900AE4845 /* newshs.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF31EC5607900AE4845 /* newshs.shp */; };
+		A6C6DF5E1EC5607900AE4845 /* newsht.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF41EC5607900AE4845 /* newsht.shp */; };
+		A6C6DF5F1EC5607900AE4845 /* newshu.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF51EC5607900AE4845 /* newshu.shp */; };
+		A6C6DF601EC5607900AE4845 /* newshv.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF61EC5607900AE4845 /* newshv.shp */; };
+		A6C6DF611EC5607900AE4845 /* order.doc in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF71EC5607900AE4845 /* order.doc */; };
+		A6C6DF621EC5607900AE4845 /* order.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF81EC5607900AE4845 /* order.exe */; };
+		A6C6DF631EC5607900AE4845 /* order.tfp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEF91EC5607900AE4845 /* order.tfp */; };
+		A6C6DF641EC5607900AE4845 /* palette.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEFA1EC5607900AE4845 /* palette.dat */; };
+		A6C6DF651EC5607900AE4845 /* rtm.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEFB1EC5607900AE4845 /* rtm.exe */; };
+		A6C6DF661EC5607900AE4845 /* setup.box in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEFC1EC5607900AE4845 /* setup.box */; };
+		A6C6DF671EC5607900AE4845 /* setup.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEFD1EC5607900AE4845 /* setup.exe */; };
+		A6C6DF681EC5607900AE4845 /* setup.ini in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEFE1EC5607900AE4845 /* setup.ini */; };
+		A6C6DF691EC5607900AE4845 /* setup.int in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DEFF1EC5607900AE4845 /* setup.int */; };
+		A6C6DF6A1EC5607900AE4845 /* shapes).dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF001EC5607900AE4845 /* shapes).dat */; };
+		A6C6DF6B1EC5607900AE4845 /* shapesw.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF011EC5607900AE4845 /* shapesw.dat */; };
+		A6C6DF6C1EC5607900AE4845 /* shapesx.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF021EC5607900AE4845 /* shapesx.dat */; };
+		A6C6DF6D1EC5607900AE4845 /* shapesy.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF031EC5607900AE4845 /* shapesy.dat */; };
+		A6C6DF6E1EC5607900AE4845 /* shapesz.dat in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF041EC5607900AE4845 /* shapesz.dat */; };
+		A6C6DF6F1EC5607900AE4845 /* shipedit.doc in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF051EC5607900AE4845 /* shipedit.doc */; };
+		A6C6DF701EC5607900AE4845 /* shipedit.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF061EC5607900AE4845 /* shipedit.exe */; };
+		A6C6DF711EC5607900AE4845 /* shipedit.pcx in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF071EC5607900AE4845 /* shipedit.pcx */; };
+		A6C6DF721EC5607900AE4845 /* tshp2.pcx in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF081EC5607900AE4845 /* tshp2.pcx */; };
+		A6C6DF731EC5607900AE4845 /* tyrend.anm in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF091EC5607900AE4845 /* tyrend.anm */; };
+		A6C6DF741EC5607900AE4845 /* tyrian.cdt in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF0A1EC5607900AE4845 /* tyrian.cdt */; };
+		A6C6DF751EC5607900AE4845 /* tyrian.exe in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF0B1EC5607900AE4845 /* tyrian.exe */; };
+		A6C6DF761EC5607900AE4845 /* tyrian.hdt in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF0C1EC5607900AE4845 /* tyrian.hdt */; };
+		A6C6DF771EC5607900AE4845 /* tyrian.ico in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF0D1EC5607900AE4845 /* tyrian.ico */; };
+		A6C6DF781EC5607900AE4845 /* tyrian.pic in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF0E1EC5607900AE4845 /* tyrian.pic */; };
+		A6C6DF791EC5607900AE4845 /* tyrian.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF0F1EC5607900AE4845 /* tyrian.shp */; };
+		A6C6DF7A1EC5607900AE4845 /* tyrian.snd in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF101EC5607900AE4845 /* tyrian.snd */; };
+		A6C6DF7B1EC5607900AE4845 /* tyrian1.lvl in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF111EC5607900AE4845 /* tyrian1.lvl */; };
+		A6C6DF7C1EC5607900AE4845 /* tyrian2.lvl in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF121EC5607900AE4845 /* tyrian2.lvl */; };
+		A6C6DF7D1EC5607900AE4845 /* tyrian3.lvl in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF131EC5607900AE4845 /* tyrian3.lvl */; };
+		A6C6DF7E1EC5607900AE4845 /* tyrian4.lvl in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF141EC5607900AE4845 /* tyrian4.lvl */; };
+		A6C6DF7F1EC5607900AE4845 /* tyrianc.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF151EC5607900AE4845 /* tyrianc.shp */; };
+		A6C6DF801EC5607900AE4845 /* tyrset.pcx in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF161EC5607900AE4845 /* tyrset.pcx */; };
+		A6C6DF811EC5607900AE4845 /* user1.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF171EC5607900AE4845 /* user1.shp */; };
+		A6C6DF821EC5607900AE4845 /* user2.shp in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF181EC5607900AE4845 /* user2.shp */; };
+		A6C6DF831EC5607900AE4845 /* voices.snd in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF191EC5607900AE4845 /* voices.snd */; };
+		A6C6DF841EC5607900AE4845 /* voicesc.snd in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DF1A1EC5607900AE4845 /* voicesc.snd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,6 +337,112 @@
 		A6C6DE971EC55BDF00AE4845 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A6C6DEAC1EC55EB000AE4845 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		A6C6DEAE1EC55ECC00AE4845 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C6DEB11EC5607900AE4845 /* cubetxt1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = cubetxt1.dat; path = BundledData/cubetxt1.dat; sourceTree = "<group>"; };
+		A6C6DEB21EC5607900AE4845 /* cubetxt2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = cubetxt2.dat; path = BundledData/cubetxt2.dat; sourceTree = "<group>"; };
+		A6C6DEB31EC5607900AE4845 /* cubetxt3.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = cubetxt3.dat; path = BundledData/cubetxt3.dat; sourceTree = "<group>"; };
+		A6C6DEB41EC5607900AE4845 /* cubetxt4.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = cubetxt4.dat; path = BundledData/cubetxt4.dat; sourceTree = "<group>"; };
+		A6C6DEB51EC5607900AE4845 /* demo.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = demo.1; path = BundledData/demo.1; sourceTree = "<group>"; };
+		A6C6DEB61EC5607900AE4845 /* demo.2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.2; path = BundledData/demo.2; sourceTree = "<group>"; };
+		A6C6DEB71EC5607900AE4845 /* demo.3 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.3; path = BundledData/demo.3; sourceTree = "<group>"; };
+		A6C6DEB81EC5607900AE4845 /* demo.4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.4; path = BundledData/demo.4; sourceTree = "<group>"; };
+		A6C6DEB91EC5607900AE4845 /* demo.5 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.5; path = BundledData/demo.5; sourceTree = "<group>"; };
+		A6C6DEBA1EC5607900AE4845 /* dpmi16bi.ovl */ = {isa = PBXFileReference; lastKnownFileType = file; name = dpmi16bi.ovl; path = BundledData/dpmi16bi.ovl; sourceTree = "<group>"; };
+		A6C6DEBB1EC5607900AE4845 /* estsc.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = estsc.shp; path = BundledData/estsc.shp; sourceTree = "<group>"; };
+		A6C6DEBC1EC5607900AE4845 /* exitmsg.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = exitmsg.bin; path = BundledData/exitmsg.bin; sourceTree = "<group>"; };
+		A6C6DEBD1EC5607900AE4845 /* file_id.diz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = file_id.diz; path = BundledData/file_id.diz; sourceTree = "<group>"; };
+		A6C6DEBE1EC5607900AE4845 /* file0001.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = file0001.exe; path = BundledData/file0001.exe; sourceTree = "<group>"; };
+		A6C6DEBF1EC5607900AE4845 /* file0002.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = file0002.exe; path = BundledData/file0002.exe; sourceTree = "<group>"; };
+		A6C6DEC01EC5607900AE4845 /* helpme.doc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = helpme.doc; path = BundledData/helpme.doc; sourceTree = "<group>"; };
+		A6C6DEC11EC5607900AE4845 /* helpme.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = helpme.exe; path = BundledData/helpme.exe; sourceTree = "<group>"; };
+		A6C6DEC21EC5607900AE4845 /* levels1.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = levels1.dat; path = BundledData/levels1.dat; sourceTree = "<group>"; };
+		A6C6DEC31EC5607900AE4845 /* levels2.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = levels2.dat; path = BundledData/levels2.dat; sourceTree = "<group>"; };
+		A6C6DEC41EC5607900AE4845 /* levels3.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = levels3.dat; path = BundledData/levels3.dat; sourceTree = "<group>"; };
+		A6C6DEC51EC5607900AE4845 /* levels4.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = levels4.dat; path = BundledData/levels4.dat; sourceTree = "<group>"; };
+		A6C6DEC61EC5607900AE4845 /* license.doc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = license.doc; path = BundledData/license.doc; sourceTree = "<group>"; };
+		A6C6DEC71EC5607900AE4845 /* loudness.awe */ = {isa = PBXFileReference; lastKnownFileType = file; name = loudness.awe; path = BundledData/loudness.awe; sourceTree = "<group>"; };
+		A6C6DEC81EC5607900AE4845 /* manual.doc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = manual.doc; path = BundledData/manual.doc; sourceTree = "<group>"; };
+		A6C6DEC91EC5607900AE4845 /* modems.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = modems.txt; path = BundledData/modems.txt; sourceTree = "<group>"; };
+		A6C6DECA1EC5607900AE4845 /* music.mus */ = {isa = PBXFileReference; lastKnownFileType = file; name = music.mus; path = BundledData/music.mus; sourceTree = "<group>"; };
+		A6C6DECB1EC5607900AE4845 /* netarena.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = netarena.exe; path = BundledData/netarena.exe; sourceTree = "<group>"; };
+		A6C6DECC1EC5607900AE4845 /* netarena.pcx */ = {isa = PBXFileReference; lastKnownFileType = file; name = netarena.pcx; path = BundledData/netarena.pcx; sourceTree = "<group>"; };
+		A6C6DECD1EC5607900AE4845 /* netfont1.pcx */ = {isa = PBXFileReference; lastKnownFileType = file; name = netfont1.pcx; path = BundledData/netfont1.pcx; sourceTree = "<group>"; };
+		A6C6DECE1EC5607900AE4845 /* netfont2.pcx */ = {isa = PBXFileReference; lastKnownFileType = file; name = netfont2.pcx; path = BundledData/netfont2.pcx; sourceTree = "<group>"; };
+		A6C6DECF1EC5607900AE4845 /* netipx.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = netipx.exe; path = BundledData/netipx.exe; sourceTree = "<group>"; };
+		A6C6DED01EC5607900AE4845 /* netmega.pcx */ = {isa = PBXFileReference; lastKnownFileType = file; name = netmega.pcx; path = BundledData/netmega.pcx; sourceTree = "<group>"; };
+		A6C6DED11EC5607900AE4845 /* netmodem.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = netmodem.exe; path = BundledData/netmodem.exe; sourceTree = "<group>"; };
+		A6C6DED21EC5607900AE4845 /* netset.pcx */ = {isa = PBXFileReference; lastKnownFileType = file; name = netset.pcx; path = BundledData/netset.pcx; sourceTree = "<group>"; };
+		A6C6DED31EC5607900AE4845 /* netterm.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = netterm.exe; path = BundledData/netterm.exe; sourceTree = "<group>"; };
+		A6C6DED41EC5607900AE4845 /* netterm.int */ = {isa = PBXFileReference; lastKnownFileType = file; name = netterm.int; path = BundledData/netterm.int; sourceTree = "<group>"; };
+		A6C6DED51EC5607900AE4845 /* newsh#.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "newsh#.shp"; path = "BundledData/newsh#.shp"; sourceTree = "<group>"; };
+		A6C6DED61EC5607900AE4845 /* newsh^.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "newsh^.shp"; path = "BundledData/newsh^.shp"; sourceTree = "<group>"; };
+		A6C6DED71EC5607900AE4845 /* newsh~.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "newsh~.shp"; path = "BundledData/newsh~.shp"; sourceTree = "<group>"; };
+		A6C6DED81EC5607900AE4845 /* newsh0.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh0.shp; path = BundledData/newsh0.shp; sourceTree = "<group>"; };
+		A6C6DED91EC5607900AE4845 /* newsh1.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh1.shp; path = BundledData/newsh1.shp; sourceTree = "<group>"; };
+		A6C6DEDA1EC5607900AE4845 /* newsh2.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh2.shp; path = BundledData/newsh2.shp; sourceTree = "<group>"; };
+		A6C6DEDB1EC5607900AE4845 /* newsh3.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh3.shp; path = BundledData/newsh3.shp; sourceTree = "<group>"; };
+		A6C6DEDC1EC5607900AE4845 /* newsh4.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh4.shp; path = BundledData/newsh4.shp; sourceTree = "<group>"; };
+		A6C6DEDD1EC5607900AE4845 /* newsh5.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh5.shp; path = BundledData/newsh5.shp; sourceTree = "<group>"; };
+		A6C6DEDE1EC5607900AE4845 /* newsh6.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh6.shp; path = BundledData/newsh6.shp; sourceTree = "<group>"; };
+		A6C6DEDF1EC5607900AE4845 /* newsh7.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh7.shp; path = BundledData/newsh7.shp; sourceTree = "<group>"; };
+		A6C6DEE01EC5607900AE4845 /* newsh8.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh8.shp; path = BundledData/newsh8.shp; sourceTree = "<group>"; };
+		A6C6DEE11EC5607900AE4845 /* newsh9.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsh9.shp; path = BundledData/newsh9.shp; sourceTree = "<group>"; };
+		A6C6DEE21EC5607900AE4845 /* newsha.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsha.shp; path = BundledData/newsha.shp; sourceTree = "<group>"; };
+		A6C6DEE31EC5607900AE4845 /* newshb.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshb.shp; path = BundledData/newshb.shp; sourceTree = "<group>"; };
+		A6C6DEE41EC5607900AE4845 /* newshc.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshc.shp; path = BundledData/newshc.shp; sourceTree = "<group>"; };
+		A6C6DEE51EC5607900AE4845 /* newshd.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshd.shp; path = BundledData/newshd.shp; sourceTree = "<group>"; };
+		A6C6DEE61EC5607900AE4845 /* newshe.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshe.shp; path = BundledData/newshe.shp; sourceTree = "<group>"; };
+		A6C6DEE71EC5607900AE4845 /* newshf.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshf.shp; path = BundledData/newshf.shp; sourceTree = "<group>"; };
+		A6C6DEE81EC5607900AE4845 /* newshg.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshg.shp; path = BundledData/newshg.shp; sourceTree = "<group>"; };
+		A6C6DEE91EC5607900AE4845 /* newshh.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshh.shp; path = BundledData/newshh.shp; sourceTree = "<group>"; };
+		A6C6DEEA1EC5607900AE4845 /* newshi.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshi.shp; path = BundledData/newshi.shp; sourceTree = "<group>"; };
+		A6C6DEEB1EC5607900AE4845 /* newshj.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshj.shp; path = BundledData/newshj.shp; sourceTree = "<group>"; };
+		A6C6DEEC1EC5607900AE4845 /* newshk.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshk.shp; path = BundledData/newshk.shp; sourceTree = "<group>"; };
+		A6C6DEED1EC5607900AE4845 /* newshl.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshl.shp; path = BundledData/newshl.shp; sourceTree = "<group>"; };
+		A6C6DEEE1EC5607900AE4845 /* newshm.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshm.shp; path = BundledData/newshm.shp; sourceTree = "<group>"; };
+		A6C6DEEF1EC5607900AE4845 /* newshn.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshn.shp; path = BundledData/newshn.shp; sourceTree = "<group>"; };
+		A6C6DEF01EC5607900AE4845 /* newsho.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsho.shp; path = BundledData/newsho.shp; sourceTree = "<group>"; };
+		A6C6DEF11EC5607900AE4845 /* newshp.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshp.shp; path = BundledData/newshp.shp; sourceTree = "<group>"; };
+		A6C6DEF21EC5607900AE4845 /* newshr.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshr.shp; path = BundledData/newshr.shp; sourceTree = "<group>"; };
+		A6C6DEF31EC5607900AE4845 /* newshs.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshs.shp; path = BundledData/newshs.shp; sourceTree = "<group>"; };
+		A6C6DEF41EC5607900AE4845 /* newsht.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newsht.shp; path = BundledData/newsht.shp; sourceTree = "<group>"; };
+		A6C6DEF51EC5607900AE4845 /* newshu.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshu.shp; path = BundledData/newshu.shp; sourceTree = "<group>"; };
+		A6C6DEF61EC5607900AE4845 /* newshv.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = newshv.shp; path = BundledData/newshv.shp; sourceTree = "<group>"; };
+		A6C6DEF71EC5607900AE4845 /* order.doc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = order.doc; path = BundledData/order.doc; sourceTree = "<group>"; };
+		A6C6DEF81EC5607900AE4845 /* order.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = order.exe; path = BundledData/order.exe; sourceTree = "<group>"; };
+		A6C6DEF91EC5607900AE4845 /* order.tfp */ = {isa = PBXFileReference; lastKnownFileType = file; name = order.tfp; path = BundledData/order.tfp; sourceTree = "<group>"; };
+		A6C6DEFA1EC5607900AE4845 /* palette.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = palette.dat; path = BundledData/palette.dat; sourceTree = "<group>"; };
+		A6C6DEFB1EC5607900AE4845 /* rtm.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = rtm.exe; path = BundledData/rtm.exe; sourceTree = "<group>"; };
+		A6C6DEFC1EC5607900AE4845 /* setup.box */ = {isa = PBXFileReference; lastKnownFileType = file; name = setup.box; path = BundledData/setup.box; sourceTree = "<group>"; };
+		A6C6DEFD1EC5607900AE4845 /* setup.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = setup.exe; path = BundledData/setup.exe; sourceTree = "<group>"; };
+		A6C6DEFE1EC5607900AE4845 /* setup.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = setup.ini; path = BundledData/setup.ini; sourceTree = "<group>"; };
+		A6C6DEFF1EC5607900AE4845 /* setup.int */ = {isa = PBXFileReference; lastKnownFileType = file; name = setup.int; path = BundledData/setup.int; sourceTree = "<group>"; };
+		A6C6DF001EC5607900AE4845 /* shapes).dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = "shapes).dat"; path = "BundledData/shapes).dat"; sourceTree = "<group>"; };
+		A6C6DF011EC5607900AE4845 /* shapesw.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = shapesw.dat; path = BundledData/shapesw.dat; sourceTree = "<group>"; };
+		A6C6DF021EC5607900AE4845 /* shapesx.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = shapesx.dat; path = BundledData/shapesx.dat; sourceTree = "<group>"; };
+		A6C6DF031EC5607900AE4845 /* shapesy.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = shapesy.dat; path = BundledData/shapesy.dat; sourceTree = "<group>"; };
+		A6C6DF041EC5607900AE4845 /* shapesz.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = shapesz.dat; path = BundledData/shapesz.dat; sourceTree = "<group>"; };
+		A6C6DF051EC5607900AE4845 /* shipedit.doc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = shipedit.doc; path = BundledData/shipedit.doc; sourceTree = "<group>"; };
+		A6C6DF061EC5607900AE4845 /* shipedit.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = shipedit.exe; path = BundledData/shipedit.exe; sourceTree = "<group>"; };
+		A6C6DF071EC5607900AE4845 /* shipedit.pcx */ = {isa = PBXFileReference; lastKnownFileType = file; name = shipedit.pcx; path = BundledData/shipedit.pcx; sourceTree = "<group>"; };
+		A6C6DF081EC5607900AE4845 /* tshp2.pcx */ = {isa = PBXFileReference; lastKnownFileType = file; name = tshp2.pcx; path = BundledData/tshp2.pcx; sourceTree = "<group>"; };
+		A6C6DF091EC5607900AE4845 /* tyrend.anm */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrend.anm; path = BundledData/tyrend.anm; sourceTree = "<group>"; };
+		A6C6DF0A1EC5607900AE4845 /* tyrian.cdt */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian.cdt; path = BundledData/tyrian.cdt; sourceTree = "<group>"; };
+		A6C6DF0B1EC5607900AE4845 /* tyrian.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian.exe; path = BundledData/tyrian.exe; sourceTree = "<group>"; };
+		A6C6DF0C1EC5607900AE4845 /* tyrian.hdt */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian.hdt; path = BundledData/tyrian.hdt; sourceTree = "<group>"; };
+		A6C6DF0D1EC5607900AE4845 /* tyrian.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = tyrian.ico; path = BundledData/tyrian.ico; sourceTree = "<group>"; };
+		A6C6DF0E1EC5607900AE4845 /* tyrian.pic */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian.pic; path = BundledData/tyrian.pic; sourceTree = "<group>"; };
+		A6C6DF0F1EC5607900AE4845 /* tyrian.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian.shp; path = BundledData/tyrian.shp; sourceTree = "<group>"; };
+		A6C6DF101EC5607900AE4845 /* tyrian.snd */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian.snd; path = BundledData/tyrian.snd; sourceTree = "<group>"; };
+		A6C6DF111EC5607900AE4845 /* tyrian1.lvl */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian1.lvl; path = BundledData/tyrian1.lvl; sourceTree = "<group>"; };
+		A6C6DF121EC5607900AE4845 /* tyrian2.lvl */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian2.lvl; path = BundledData/tyrian2.lvl; sourceTree = "<group>"; };
+		A6C6DF131EC5607900AE4845 /* tyrian3.lvl */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian3.lvl; path = BundledData/tyrian3.lvl; sourceTree = "<group>"; };
+		A6C6DF141EC5607900AE4845 /* tyrian4.lvl */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrian4.lvl; path = BundledData/tyrian4.lvl; sourceTree = "<group>"; };
+		A6C6DF151EC5607900AE4845 /* tyrianc.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrianc.shp; path = BundledData/tyrianc.shp; sourceTree = "<group>"; };
+		A6C6DF161EC5607900AE4845 /* tyrset.pcx */ = {isa = PBXFileReference; lastKnownFileType = file; name = tyrset.pcx; path = BundledData/tyrset.pcx; sourceTree = "<group>"; };
+		A6C6DF171EC5607900AE4845 /* user1.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = user1.shp; path = BundledData/user1.shp; sourceTree = "<group>"; };
+		A6C6DF181EC5607900AE4845 /* user2.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = user2.shp; path = BundledData/user2.shp; sourceTree = "<group>"; };
+		A6C6DF191EC5607900AE4845 /* voices.snd */ = {isa = PBXFileReference; lastKnownFileType = file; name = voices.snd; path = BundledData/voices.snd; sourceTree = "<group>"; };
+		A6C6DF1A1EC5607900AE4845 /* voicesc.snd */ = {isa = PBXFileReference; lastKnownFileType = file; name = voicesc.snd; path = BundledData/voicesc.snd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +474,7 @@
 		A6C6DDBD1EC5586800AE4845 = {
 			isa = PBXGroup;
 			children = (
+				A6C6DEB01EC5606D00AE4845 /* BundledData */,
 				A6C6DE7D1EC5590600AE4845 /* Libraries */,
 				A6C6DDE01EC558AB00AE4845 /* src */,
 				A6C6DDC81EC5586800AE4845 /* opentyrian-iOS */,
@@ -449,6 +662,119 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A6C6DEB01EC5606D00AE4845 /* BundledData */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6DEB11EC5607900AE4845 /* cubetxt1.dat */,
+				A6C6DEB21EC5607900AE4845 /* cubetxt2.dat */,
+				A6C6DEB31EC5607900AE4845 /* cubetxt3.dat */,
+				A6C6DEB41EC5607900AE4845 /* cubetxt4.dat */,
+				A6C6DEB51EC5607900AE4845 /* demo.1 */,
+				A6C6DEB61EC5607900AE4845 /* demo.2 */,
+				A6C6DEB71EC5607900AE4845 /* demo.3 */,
+				A6C6DEB81EC5607900AE4845 /* demo.4 */,
+				A6C6DEB91EC5607900AE4845 /* demo.5 */,
+				A6C6DEBA1EC5607900AE4845 /* dpmi16bi.ovl */,
+				A6C6DEBB1EC5607900AE4845 /* estsc.shp */,
+				A6C6DEBC1EC5607900AE4845 /* exitmsg.bin */,
+				A6C6DEBD1EC5607900AE4845 /* file_id.diz */,
+				A6C6DEBE1EC5607900AE4845 /* file0001.exe */,
+				A6C6DEBF1EC5607900AE4845 /* file0002.exe */,
+				A6C6DEC01EC5607900AE4845 /* helpme.doc */,
+				A6C6DEC11EC5607900AE4845 /* helpme.exe */,
+				A6C6DEC21EC5607900AE4845 /* levels1.dat */,
+				A6C6DEC31EC5607900AE4845 /* levels2.dat */,
+				A6C6DEC41EC5607900AE4845 /* levels3.dat */,
+				A6C6DEC51EC5607900AE4845 /* levels4.dat */,
+				A6C6DEC61EC5607900AE4845 /* license.doc */,
+				A6C6DEC71EC5607900AE4845 /* loudness.awe */,
+				A6C6DEC81EC5607900AE4845 /* manual.doc */,
+				A6C6DEC91EC5607900AE4845 /* modems.txt */,
+				A6C6DECA1EC5607900AE4845 /* music.mus */,
+				A6C6DECB1EC5607900AE4845 /* netarena.exe */,
+				A6C6DECC1EC5607900AE4845 /* netarena.pcx */,
+				A6C6DECD1EC5607900AE4845 /* netfont1.pcx */,
+				A6C6DECE1EC5607900AE4845 /* netfont2.pcx */,
+				A6C6DECF1EC5607900AE4845 /* netipx.exe */,
+				A6C6DED01EC5607900AE4845 /* netmega.pcx */,
+				A6C6DED11EC5607900AE4845 /* netmodem.exe */,
+				A6C6DED21EC5607900AE4845 /* netset.pcx */,
+				A6C6DED31EC5607900AE4845 /* netterm.exe */,
+				A6C6DED41EC5607900AE4845 /* netterm.int */,
+				A6C6DED51EC5607900AE4845 /* newsh#.shp */,
+				A6C6DED61EC5607900AE4845 /* newsh^.shp */,
+				A6C6DED71EC5607900AE4845 /* newsh~.shp */,
+				A6C6DED81EC5607900AE4845 /* newsh0.shp */,
+				A6C6DED91EC5607900AE4845 /* newsh1.shp */,
+				A6C6DEDA1EC5607900AE4845 /* newsh2.shp */,
+				A6C6DEDB1EC5607900AE4845 /* newsh3.shp */,
+				A6C6DEDC1EC5607900AE4845 /* newsh4.shp */,
+				A6C6DEDD1EC5607900AE4845 /* newsh5.shp */,
+				A6C6DEDE1EC5607900AE4845 /* newsh6.shp */,
+				A6C6DEDF1EC5607900AE4845 /* newsh7.shp */,
+				A6C6DEE01EC5607900AE4845 /* newsh8.shp */,
+				A6C6DEE11EC5607900AE4845 /* newsh9.shp */,
+				A6C6DEE21EC5607900AE4845 /* newsha.shp */,
+				A6C6DEE31EC5607900AE4845 /* newshb.shp */,
+				A6C6DEE41EC5607900AE4845 /* newshc.shp */,
+				A6C6DEE51EC5607900AE4845 /* newshd.shp */,
+				A6C6DEE61EC5607900AE4845 /* newshe.shp */,
+				A6C6DEE71EC5607900AE4845 /* newshf.shp */,
+				A6C6DEE81EC5607900AE4845 /* newshg.shp */,
+				A6C6DEE91EC5607900AE4845 /* newshh.shp */,
+				A6C6DEEA1EC5607900AE4845 /* newshi.shp */,
+				A6C6DEEB1EC5607900AE4845 /* newshj.shp */,
+				A6C6DEEC1EC5607900AE4845 /* newshk.shp */,
+				A6C6DEED1EC5607900AE4845 /* newshl.shp */,
+				A6C6DEEE1EC5607900AE4845 /* newshm.shp */,
+				A6C6DEEF1EC5607900AE4845 /* newshn.shp */,
+				A6C6DEF01EC5607900AE4845 /* newsho.shp */,
+				A6C6DEF11EC5607900AE4845 /* newshp.shp */,
+				A6C6DEF21EC5607900AE4845 /* newshr.shp */,
+				A6C6DEF31EC5607900AE4845 /* newshs.shp */,
+				A6C6DEF41EC5607900AE4845 /* newsht.shp */,
+				A6C6DEF51EC5607900AE4845 /* newshu.shp */,
+				A6C6DEF61EC5607900AE4845 /* newshv.shp */,
+				A6C6DEF71EC5607900AE4845 /* order.doc */,
+				A6C6DEF81EC5607900AE4845 /* order.exe */,
+				A6C6DEF91EC5607900AE4845 /* order.tfp */,
+				A6C6DEFA1EC5607900AE4845 /* palette.dat */,
+				A6C6DEFB1EC5607900AE4845 /* rtm.exe */,
+				A6C6DEFC1EC5607900AE4845 /* setup.box */,
+				A6C6DEFD1EC5607900AE4845 /* setup.exe */,
+				A6C6DEFE1EC5607900AE4845 /* setup.ini */,
+				A6C6DEFF1EC5607900AE4845 /* setup.int */,
+				A6C6DF001EC5607900AE4845 /* shapes).dat */,
+				A6C6DF011EC5607900AE4845 /* shapesw.dat */,
+				A6C6DF021EC5607900AE4845 /* shapesx.dat */,
+				A6C6DF031EC5607900AE4845 /* shapesy.dat */,
+				A6C6DF041EC5607900AE4845 /* shapesz.dat */,
+				A6C6DF051EC5607900AE4845 /* shipedit.doc */,
+				A6C6DF061EC5607900AE4845 /* shipedit.exe */,
+				A6C6DF071EC5607900AE4845 /* shipedit.pcx */,
+				A6C6DF081EC5607900AE4845 /* tshp2.pcx */,
+				A6C6DF091EC5607900AE4845 /* tyrend.anm */,
+				A6C6DF0A1EC5607900AE4845 /* tyrian.cdt */,
+				A6C6DF0B1EC5607900AE4845 /* tyrian.exe */,
+				A6C6DF0C1EC5607900AE4845 /* tyrian.hdt */,
+				A6C6DF0D1EC5607900AE4845 /* tyrian.ico */,
+				A6C6DF0E1EC5607900AE4845 /* tyrian.pic */,
+				A6C6DF0F1EC5607900AE4845 /* tyrian.shp */,
+				A6C6DF101EC5607900AE4845 /* tyrian.snd */,
+				A6C6DF111EC5607900AE4845 /* tyrian1.lvl */,
+				A6C6DF121EC5607900AE4845 /* tyrian2.lvl */,
+				A6C6DF131EC5607900AE4845 /* tyrian3.lvl */,
+				A6C6DF141EC5607900AE4845 /* tyrian4.lvl */,
+				A6C6DF151EC5607900AE4845 /* tyrianc.shp */,
+				A6C6DF161EC5607900AE4845 /* tyrset.pcx */,
+				A6C6DF171EC5607900AE4845 /* user1.shp */,
+				A6C6DF181EC5607900AE4845 /* user2.shp */,
+				A6C6DF191EC5607900AE4845 /* voices.snd */,
+				A6C6DF1A1EC5607900AE4845 /* voicesc.snd */,
+			);
+			name = BundledData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -532,9 +858,115 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C6DF3D1EC5607900AE4845 /* netterm.exe in Resources */,
+				A6C6DF7D1EC5607900AE4845 /* tyrian3.lvl in Resources */,
+				A6C6DF781EC5607900AE4845 /* tyrian.pic in Resources */,
+				A6C6DF221EC5607900AE4845 /* demo.4 in Resources */,
+				A6C6DF811EC5607900AE4845 /* user1.shp in Resources */,
+				A6C6DF2F1EC5607900AE4845 /* levels4.dat in Resources */,
+				A6C6DF3E1EC5607900AE4845 /* netterm.int in Resources */,
+				A6C6DF4C1EC5607900AE4845 /* newsha.shp in Resources */,
+				A6C6DF6B1EC5607900AE4845 /* shapesw.dat in Resources */,
+				A6C6DF581EC5607900AE4845 /* newshm.shp in Resources */,
+				A6C6DF701EC5607900AE4845 /* shipedit.exe in Resources */,
+				A6C6DF461EC5607900AE4845 /* newsh4.shp in Resources */,
+				A6C6DF521EC5607900AE4845 /* newshg.shp in Resources */,
+				A6C6DF771EC5607900AE4845 /* tyrian.ico in Resources */,
+				A6C6DF4B1EC5607900AE4845 /* newsh9.shp in Resources */,
+				A6C6DF751EC5607900AE4845 /* tyrian.exe in Resources */,
+				A6C6DF601EC5607900AE4845 /* newshv.shp in Resources */,
+				A6C6DF491EC5607900AE4845 /* newsh7.shp in Resources */,
+				A6C6DF211EC5607900AE4845 /* demo.3 in Resources */,
+				A6C6DF341EC5607900AE4845 /* music.mus in Resources */,
+				A6C6DF231EC5607900AE4845 /* demo.5 in Resources */,
 				A6C6DDD91EC5586800AE4845 /* LaunchScreen.storyboard in Resources */,
+				A6C6DF611EC5607900AE4845 /* order.doc in Resources */,
+				A6C6DF301EC5607900AE4845 /* license.doc in Resources */,
+				A6C6DF5C1EC5607900AE4845 /* newshr.shp in Resources */,
+				A6C6DF641EC5607900AE4845 /* palette.dat in Resources */,
+				A6C6DF721EC5607900AE4845 /* tshp2.pcx in Resources */,
+				A6C6DF731EC5607900AE4845 /* tyrend.anm in Resources */,
+				A6C6DF381EC5607900AE4845 /* netfont2.pcx in Resources */,
+				A6C6DF481EC5607900AE4845 /* newsh6.shp in Resources */,
+				A6C6DF291EC5607900AE4845 /* file0002.exe in Resources */,
+				A6C6DF421EC5607900AE4845 /* newsh0.shp in Resources */,
+				A6C6DF791EC5607900AE4845 /* tyrian.shp in Resources */,
+				A6C6DF5E1EC5607900AE4845 /* newsht.shp in Resources */,
+				A6C6DF841EC5607900AE4845 /* voicesc.snd in Resources */,
+				A6C6DF831EC5607900AE4845 /* voices.snd in Resources */,
+				A6C6DF471EC5607900AE4845 /* newsh5.shp in Resources */,
+				A6C6DF351EC5607900AE4845 /* netarena.exe in Resources */,
+				A6C6DF571EC5607900AE4845 /* newshl.shp in Resources */,
+				A6C6DF251EC5607900AE4845 /* estsc.shp in Resources */,
+				A6C6DF311EC5607900AE4845 /* loudness.awe in Resources */,
+				A6C6DF821EC5607900AE4845 /* user2.shp in Resources */,
+				A6C6DF7E1EC5607900AE4845 /* tyrian4.lvl in Resources */,
 				A6C6DDD61EC5586800AE4845 /* Assets.xcassets in Resources */,
+				A6C6DF6C1EC5607900AE4845 /* shapesx.dat in Resources */,
+				A6C6DF6E1EC5607900AE4845 /* shapesz.dat in Resources */,
+				A6C6DF1F1EC5607900AE4845 /* demo.1 in Resources */,
+				A6C6DF6D1EC5607900AE4845 /* shapesy.dat in Resources */,
+				A6C6DF391EC5607900AE4845 /* netipx.exe in Resources */,
+				A6C6DF2A1EC5607900AE4845 /* helpme.doc in Resources */,
+				A6C6DF451EC5607900AE4845 /* newsh3.shp in Resources */,
+				A6C6DF361EC5607900AE4845 /* netarena.pcx in Resources */,
+				A6C6DF7C1EC5607900AE4845 /* tyrian2.lvl in Resources */,
+				A6C6DF3B1EC5607900AE4845 /* netmodem.exe in Resources */,
+				A6C6DF4F1EC5607900AE4845 /* newshd.shp in Resources */,
+				A6C6DF691EC5607900AE4845 /* setup.int in Resources */,
+				A6C6DF1C1EC5607900AE4845 /* cubetxt2.dat in Resources */,
+				A6C6DF5A1EC5607900AE4845 /* newsho.shp in Resources */,
+				A6C6DF7F1EC5607900AE4845 /* tyrianc.shp in Resources */,
+				A6C6DF2C1EC5607900AE4845 /* levels1.dat in Resources */,
+				A6C6DF6A1EC5607900AE4845 /* shapes).dat in Resources */,
+				A6C6DF241EC5607900AE4845 /* dpmi16bi.ovl in Resources */,
+				A6C6DF511EC5607900AE4845 /* newshf.shp in Resources */,
+				A6C6DF671EC5607900AE4845 /* setup.exe in Resources */,
+				A6C6DF321EC5607900AE4845 /* manual.doc in Resources */,
+				A6C6DF661EC5607900AE4845 /* setup.box in Resources */,
+				A6C6DF441EC5607900AE4845 /* newsh2.shp in Resources */,
+				A6C6DF681EC5607900AE4845 /* setup.ini in Resources */,
+				A6C6DF281EC5607900AE4845 /* file0001.exe in Resources */,
+				A6C6DF371EC5607900AE4845 /* netfont1.pcx in Resources */,
+				A6C6DF591EC5607900AE4845 /* newshn.shp in Resources */,
+				A6C6DF1D1EC5607900AE4845 /* cubetxt3.dat in Resources */,
+				A6C6DF651EC5607900AE4845 /* rtm.exe in Resources */,
+				A6C6DF6F1EC5607900AE4845 /* shipedit.doc in Resources */,
+				A6C6DF5F1EC5607900AE4845 /* newshu.shp in Resources */,
+				A6C6DF7A1EC5607900AE4845 /* tyrian.snd in Resources */,
+				A6C6DF711EC5607900AE4845 /* shipedit.pcx in Resources */,
+				A6C6DF4A1EC5607900AE4845 /* newsh8.shp in Resources */,
+				A6C6DF531EC5607900AE4845 /* newshh.shp in Resources */,
 				A6C6DDD41EC5586800AE4845 /* Main.storyboard in Resources */,
+				A6C6DF801EC5607900AE4845 /* tyrset.pcx in Resources */,
+				A6C6DF401EC5607900AE4845 /* newsh^.shp in Resources */,
+				A6C6DF1E1EC5607900AE4845 /* cubetxt4.dat in Resources */,
+				A6C6DF551EC5607900AE4845 /* newshj.shp in Resources */,
+				A6C6DF7B1EC5607900AE4845 /* tyrian1.lvl in Resources */,
+				A6C6DF761EC5607900AE4845 /* tyrian.hdt in Resources */,
+				A6C6DF4E1EC5607900AE4845 /* newshc.shp in Resources */,
+				A6C6DF4D1EC5607900AE4845 /* newshb.shp in Resources */,
+				A6C6DF501EC5607900AE4845 /* newshe.shp in Resources */,
+				A6C6DF411EC5607900AE4845 /* newsh~.shp in Resources */,
+				A6C6DF561EC5607900AE4845 /* newshk.shp in Resources */,
+				A6C6DF5D1EC5607900AE4845 /* newshs.shp in Resources */,
+				A6C6DF271EC5607900AE4845 /* file_id.diz in Resources */,
+				A6C6DF621EC5607900AE4845 /* order.exe in Resources */,
+				A6C6DF3A1EC5607900AE4845 /* netmega.pcx in Resources */,
+				A6C6DF331EC5607900AE4845 /* modems.txt in Resources */,
+				A6C6DF1B1EC5607900AE4845 /* cubetxt1.dat in Resources */,
+				A6C6DF2B1EC5607900AE4845 /* helpme.exe in Resources */,
+				A6C6DF431EC5607900AE4845 /* newsh1.shp in Resources */,
+				A6C6DF5B1EC5607900AE4845 /* newshp.shp in Resources */,
+				A6C6DF541EC5607900AE4845 /* newshi.shp in Resources */,
+				A6C6DF3C1EC5607900AE4845 /* netset.pcx in Resources */,
+				A6C6DF3F1EC5607900AE4845 /* newsh#.shp in Resources */,
+				A6C6DF2D1EC5607900AE4845 /* levels2.dat in Resources */,
+				A6C6DF2E1EC5607900AE4845 /* levels3.dat in Resources */,
+				A6C6DF631EC5607900AE4845 /* order.tfp in Resources */,
+				A6C6DF741EC5607900AE4845 /* tyrian.cdt in Resources */,
+				A6C6DF201EC5607900AE4845 /* demo.2 in Resources */,
+				A6C6DF261EC5607900AE4845 /* exitmsg.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
