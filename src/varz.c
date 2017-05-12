@@ -206,7 +206,11 @@ struct JE_MegaDataType2 megaData2;
 struct JE_MegaDataType3 megaData3;
 
 /* Secret Level Display */
+#ifdef OPENTYRIAN_IOS
+JE_byte iflash;
+#else
 JE_byte flash;
+#endif // OPENTYRIAN_IOS
 JE_shortint flashChange;
 JE_byte displayTime;
 

@@ -759,8 +759,11 @@ void JE_itemScreen( void )
 		}
 
 		/* JE: { - Step VI - Help text for current cursor location } */
-
-		flash = false;
+#ifdef OPENTYRIAN_IOS
+		iflash = false;
+#else
+        flash = false;
+#endif // OPENTYRIAN_IOS
 
 		/* JE: {Reset player weapons} */
 		memset(shotMultiPos, 0, sizeof(shotMultiPos));
