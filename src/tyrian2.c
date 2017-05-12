@@ -894,7 +894,11 @@ start_level_first:
 	cubeMax = 0;
 
 	/* Secret Level Display */
-	flash = 0;
+#ifdef OPENTYRIAN_IOS
+	iflash = 0;
+#else
+    flash = 0;
+#endif // OPENTYRIAN_IOS
 	flashChange = 1;
 	displayTime = 0;
 
@@ -2111,10 +2115,17 @@ draw_player_shot_loop_end:
 	if (displayTime > 0)
 	{
 		displayTime--;
-		JE_outTextAndDarken(VGAScreen, 90, 10, miscText[59], 15, (JE_byte)flash - 8, FONT_SHAPES);
-		flash += flashChange;
-		if (flash > 4 || flash == 0)
+#ifdef OPENTYRIAN_IOS
+		JE_outTextAndDarken(VGAScreen, 90, 10, miscText[59], 15, (JE_byte)iflash - 8, FONT_SHAPES);
+		iflash += flashChange;
+		if (iflash > 4 || iflash == 0)
 			flashChange = -flashChange;
+#else
+        JE_outTextAndDarken(VGAScreen, 90, 10, miscText[59], 15, (JE_byte)flash - 8, FONT_SHAPES);
+        flash += flashChange;
+        if (flash > 4 || flash == 0)
+            flashChange = -flashChange;
+#endif // OPENTYRIAN_IOS
 	}
 
 	/*Pentium Speed Mode?*/

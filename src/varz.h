@@ -246,7 +246,11 @@ extern JE_word enemyKilled;
 extern struct JE_MegaDataType1 megaData1;
 extern struct JE_MegaDataType2 megaData2;
 extern struct JE_MegaDataType3 megaData3;
+#ifdef OPENTYRIAN_IOS
+extern JE_byte iflash;
+#else
 extern JE_byte flash;
+#endif // OPENTYRIAN_IOS
 extern JE_shortint flashChange;
 extern JE_byte displayTime;
 
