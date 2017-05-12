@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C6DDCB1EC5586800AE4845 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6DDCA1EC5586800AE4845 /* main.m */; };
+		A6C6DDCE1EC5586800AE4845 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6DDCD1EC5586800AE4845 /* AppDelegate.m */; };
+		A6C6DDD11EC5586800AE4845 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6DDD01EC5586800AE4845 /* ViewController.m */; };
+		A6C6DDD41EC5586800AE4845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DDD21EC5586800AE4845 /* Main.storyboard */; };
+		A6C6DDD61EC5586800AE4845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DDD51EC5586800AE4845 /* Assets.xcassets */; };
+		A6C6DDD91EC5586800AE4845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C6DDD71EC5586800AE4845 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C6DDC61EC5586800AE4845 /* opentyrian-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "opentyrian-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C6DDCA1EC5586800AE4845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C6DDCC1EC5586800AE4845 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6C6DDCD1EC5586800AE4845 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6C6DDCF1EC5586800AE4845 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6C6DDD01EC5586800AE4845 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6C6DDD31EC5586800AE4845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6C6DDD51EC5586800AE4845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6C6DDD81EC5586800AE4845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6C6DDDA1EC5586800AE4845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C6DDC31EC5586800AE4845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C6DDBD1EC5586800AE4845 = {
+			isa = PBXGroup;
+			children = (
+				A6C6DDC81EC5586800AE4845 /* opentyrian-iOS */,
+				A6C6DDC71EC5586800AE4845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C6DDC71EC5586800AE4845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6DDC61EC5586800AE4845 /* opentyrian-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C6DDC81EC5586800AE4845 /* opentyrian-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6DDCC1EC5586800AE4845 /* AppDelegate.h */,
+				A6C6DDCD1EC5586800AE4845 /* AppDelegate.m */,
+				A6C6DDCF1EC5586800AE4845 /* ViewController.h */,
+				A6C6DDD01EC5586800AE4845 /* ViewController.m */,
+				A6C6DDD21EC5586800AE4845 /* Main.storyboard */,
+				A6C6DDD51EC5586800AE4845 /* Assets.xcassets */,
+				A6C6DDD71EC5586800AE4845 /* LaunchScreen.storyboard */,
+				A6C6DDDA1EC5586800AE4845 /* Info.plist */,
+				A6C6DDC91EC5586800AE4845 /* Supporting Files */,
+			);
+			path = "opentyrian-iOS";
+			sourceTree = "<group>";
+		};
+		A6C6DDC91EC5586800AE4845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6DDCA1EC5586800AE4845 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C6DDC51EC5586800AE4845 /* opentyrian-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C6DDDD1EC5586800AE4845 /* Build configuration list for PBXNativeTarget "opentyrian-iOS" */;
+			buildPhases = (
+				A6C6DDC21EC5586800AE4845 /* Sources */,
+				A6C6DDC31EC5586800AE4845 /* Frameworks */,
+				A6C6DDC41EC5586800AE4845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "opentyrian-iOS";
+			productName = "opentyrian-iOS";
+			productReference = A6C6DDC61EC5586800AE4845 /* opentyrian-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C6DDBE1EC5586800AE4845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dancing Bottle";
+				TargetAttributes = {
+					A6C6DDC51EC5586800AE4845 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4MQWZS5V6J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A6C6DDC11EC5586800AE4845 /* Build configuration list for PBXProject "opentyrian-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6C6DDBD1EC5586800AE4845;
+			productRefGroup = A6C6DDC71EC5586800AE4845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C6DDC51EC5586800AE4845 /* opentyrian-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C6DDC41EC5586800AE4845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6DDD91EC5586800AE4845 /* LaunchScreen.storyboard in Resources */,
+				A6C6DDD61EC5586800AE4845 /* Assets.xcassets in Resources */,
+				A6C6DDD41EC5586800AE4845 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C6DDC21EC5586800AE4845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6DDD11EC5586800AE4845 /* ViewController.m in Sources */,
+				A6C6DDCE1EC5586800AE4845 /* AppDelegate.m in Sources */,
+				A6C6DDCB1EC5586800AE4845 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C6DDD21EC5586800AE4845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C6DDD31EC5586800AE4845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6C6DDD71EC5586800AE4845 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C6DDD81EC5586800AE4845 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C6DDDB1EC5586800AE4845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C6DDDC1EC5586800AE4845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C6DDDE1EC5586800AE4845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4MQWZS5V6J;
+				INFOPLIST_FILE = "opentyrian-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dancingbottle.opentyrian-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6C6DDDF1EC5586800AE4845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4MQWZS5V6J;
+				INFOPLIST_FILE = "opentyrian-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dancingbottle.opentyrian-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C6DDC11EC5586800AE4845 /* Build configuration list for PBXProject "opentyrian-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C6DDDB1EC5586800AE4845 /* Debug */,
+				A6C6DDDC1EC5586800AE4845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C6DDDD1EC5586800AE4845 /* Build configuration list for PBXNativeTarget "opentyrian-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C6DDDE1EC5586800AE4845 /* Debug */,
+				A6C6DDDF1EC5586800AE4845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C6DDBE1EC5586800AE4845 /* Project object */;
+}
