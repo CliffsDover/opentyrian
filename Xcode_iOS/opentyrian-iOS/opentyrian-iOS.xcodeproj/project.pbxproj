@@ -1166,6 +1166,7 @@
 				);
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Libraries/SDL2-2.0.5/include/";
 				INFOPLIST_FILE = "opentyrian-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dancingbottle.opentyrian-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1184,6 +1185,7 @@
 				);
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Libraries/SDL2-2.0.5/include/";
 				INFOPLIST_FILE = "opentyrian-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dancingbottle.opentyrian-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
